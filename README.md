@@ -12,5 +12,7 @@
 
 ---
 **동기부여가 된 이야기들**
+
 [일단 해봐, 재미를 주는 장치](https://jojoldu.tistory.com/402)
+
 [배출의 경험, 틀리면 뭐 어때요?](https://jbee.io/essay/how_do_i_study_2/)
