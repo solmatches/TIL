@@ -1,6 +1,7 @@
 # 리액트는 실제로 어떻게 동작하는 걸까?
 
 <br/>
+
 > Philip Rabianek의 How Does React Actually Work? 동영상을 보고 정리한 내용이다.
 
 <br/>
