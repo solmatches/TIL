@@ -47,3 +47,22 @@ RTL은 `jsdom`라이브러리 를 통해 실제 브라우저 DOM을 기준으로
 - 타켓유형에는 우선 순위가 있음 [#](https://testing-library.com/docs/queries/about/#priority)
 - action은 userEvent를 권장함 [#](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library#not-using-testing-libraryuser-event)
 - role찾는 팁 [#](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library#not-using-byrole-most-of-the-time)
+
+<br/>
+
+## 참고
+- [https://sangboaklee.medium.com/react-컴포넌트-테스트에-대한-생각-6ec4b234b8eb](https://sangboaklee.medium.com/react-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EC%83%9D%EA%B0%81-6ec4b234b8eb)
+- [https://jbee.io/react/testing-1-react-testing/](https://jbee.io/react/testing-1-react-testing/)
+- [https://team.modusign.co.kr/프론트엔드에서-의미있는-테스트-코드-작성하기-4992409c7f2d](https://team.modusign.co.kr/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-4992409c7f2d)
+- [https://www.softwaretestinghelp.com/what-is-component-testing-or-module-testing/](https://www.softwaretestinghelp.com/what-is-component-testing-or-module-testing/)
+- [https://www.daleseo.com/react-testing-library/](https://www.daleseo.com/react-testing-library/)
+- [https://testing-library.com/docs/react-testing-library/example-intro](https://testing-library.com/docs/react-testing-library/example-intro)
+- [https://testing-library.com/docs/user-event/intro](https://testing-library.com/docs/user-event/intro)
+
+### 스토리북에서 제공하는 컴포넌트 테스트
+
+[https://storybook.js.org/tutorials/intro-to-storybook/react/en/composite-component/](https://storybook.js.org/tutorials/intro-to-storybook/react/en/composite-component/)
+
+### 디자인 시스템 관련 시각적 회귀 테스트
+
+[https://ideveloper2.dev/blog/2021-01-24--시각적-회귀-테스트-visual-regression-test/](https://ideveloper2.dev/blog/2021-01-24--%EC%8B%9C%EA%B0%81%EC%A0%81-%ED%9A%8C%EA%B7%80-%ED%85%8C%EC%8A%A4%ED%8A%B8-visual-regression-test/)
