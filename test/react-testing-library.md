@@ -57,7 +57,6 @@ RTL은 `jsdom`라이브러리 를 통해 실제 브라우저 DOM을 기준으로
 - [https://www.softwaretestinghelp.com/what-is-component-testing-or-module-testing/](https://www.softwaretestinghelp.com/what-is-component-testing-or-module-testing/)
 - [https://www.daleseo.com/react-testing-library/](https://www.daleseo.com/react-testing-library/)
 - [https://testing-library.com/docs/react-testing-library/example-intro](https://testing-library.com/docs/react-testing-library/example-intro)
-- [https://testing-library.com/docs/user-event/intro](https://testing-library.com/docs/user-event/intro)
 
 ### 스토리북에서 제공하는 컴포넌트 테스트
 
