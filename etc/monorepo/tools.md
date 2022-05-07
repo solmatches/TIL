@@ -21,23 +21,23 @@ $ lerna version       # prompt에서 선택하여 업데이트
 $ lerna version --conventional-commits # 커밋 메시지를 분석하여 버전 업데이트
 ```
 
-- 마지막 커밋과 차이가 있는 패키지(`@momsitter/utils`)를 파악해서 버전을 올려준다.
-이때 버전이 변경된 패키지를 종속성으로 사용하고 있는 패키지(`@momsitter/landing`)가 있다면 해당 패키지의 버전도 올려준다.
+- 마지막 커밋과 차이가 있는 패키지(`@repo/utils`)를 파악해서 버전을 올려준다.
+이때 버전이 변경된 패키지를 종속성으로 사용하고 있는 패키지(`@repo/components`)가 있다면 해당 패키지의 버전도 올려준다.
 
 ```json
-# @momsitter/utils의 버전이 업데이트 됨
+# @repo/utils의 버전이 업데이트 됨
 {
-	"name": "@momsitter/utils",
+	"name": "@repo/utils",
 	"version": "1.0.1" -> "1.0.2"
 }
 
-# @momsitter/landing의 버전이 변경되고 
-# landing에서 사용되고 있는 @momsitter/utils의 버전도 업데이트 된 버전으로 변경됨
+# @repo/components의 버전이 변경되고 
+# components에서 사용되고 있는 @repo/utils의 버전도 업데이트 된 버전으로 변경됨
 {
-	"name": "@momsitter/landing",
+	"name": "@repo/components",
 	"version": "2.5.10",
 	"dependencies":{
-		"@momsitter/utils": "^1.0.2"
+		"@repo/utils": "^1.0.2"
 	}
 }
 ```
